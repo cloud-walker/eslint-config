@@ -8,6 +8,9 @@
   "repository": "cloud-walker/eslint-config",
   "license": "MIT",
   "bugs": {"url": "https://github.com/cloud-walker/eslint-config/issues"},
+  "files": [
+    "index.js"
+  ],
   "peerDependencies": {
     "eslint": "^4.9.0"
   }

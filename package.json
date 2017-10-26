@@ -1,0 +1,14 @@
+{
+  "name": "@cloudwalker/eslint-config-default",
+  "version": "0.1.0",
+  "description": "Default ESLint configuration",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "cloud-walker/eslint-config",
+  "license": "MIT",
+  "bugs": {"url": "https://github.com/cloud-walker/eslint-config/issues"},
+  "peerDependencies": {
+    "eslint": "^4.9.0"
+  }
+}

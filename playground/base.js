@@ -27,3 +27,8 @@ const defaultCaseWithComment = (() => {
 
 // for-direction
 for (let i = 0; i < 10; i--) {}
+
+// getter-return
+const p = {
+  get name() {},
+}

@@ -10,5 +10,6 @@ module.exports = {
     'array-callback-return': 'warn',
     'default-case': ['warn', {commentPattern: '^no default$'}],
     'for-direction': 'error',
+    'getter-return': 'warn',
   },
 }

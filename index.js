@@ -6,4 +6,5 @@ module.exports = {
     ecmaVersion: 8,
     sourceType: 'module',
   },
+  rules: {'array-callback-return': 'warn'},
 }

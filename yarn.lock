@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@cloudwalker/prettier-config@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@cloudwalker/prettier-config/-/prettier-config-0.1.0.tgz#62a2a80df01cd7a64d9d124da937a2691c0b3fdc"
+
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"

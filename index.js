@@ -12,5 +12,6 @@ module.exports = {
     'for-direction': 'error',
     'getter-return': 'warn',
     'no-await-in-loop': 'warn',
+    'no-compare-neg-zero': 'error',
   },
 }

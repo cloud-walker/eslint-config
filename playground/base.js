@@ -41,3 +41,7 @@ async function foo(things) {
   }
   return baz(results)
 }
+
+if (x === -0) {
+  // do stuff
+}

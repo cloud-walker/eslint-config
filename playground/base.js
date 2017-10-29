@@ -42,12 +42,36 @@ async function foo(things) {
   return baz(results)
 }
 
+if (x = 0) {
+  
+}
+
 // no-compare-neg-zero
 if (x === -0) {
   // do stuff
 }
 
+// no-cond-assign
+let x
+if (x = 0) {
+  // do stuff...
+}
+
+// no-console
+console.log('foo!')
+console.error('error!')
+console.info('info!')
+console.warn('warn!')
+console.trace('trace!')
+console.dir('dir!', {colors: true})
+
 // no-constant-condition
 if (false) {
   // never do stuff
 }
+
+// no-control-regex
+const pattern = /\x1f/
+new RegExp('\x1f')
+const pattern = /\x20/
+new RegExp('\x20')

@@ -16,5 +16,6 @@ module.exports = {
     'no-cond-assign': 'warn',
     'no-console': ['warn', {allow: ['info', 'warn', 'error', 'trace', 'dir']}],
     'no-constant-condition': 'warn',
+    'no-control-regex': 'warn',
   },
 }

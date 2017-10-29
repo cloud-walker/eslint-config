@@ -13,5 +13,6 @@ module.exports = {
     'getter-return': 'warn',
     'no-await-in-loop': 'warn',
     'no-compare-neg-zero': 'error',
+    'no-cond-assign': 'warn',
   },
 }

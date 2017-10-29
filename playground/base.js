@@ -46,3 +46,8 @@ async function foo(things) {
 if (x === -0) {
   // do stuff
 }
+
+// no-constant-condition
+if (false) {
+  // never do stuff
+}

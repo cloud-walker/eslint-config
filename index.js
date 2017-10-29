@@ -14,5 +14,6 @@ module.exports = {
     'no-await-in-loop': 'warn',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'warn',
+    'no-constant-condition': 'warn',
   },
 }

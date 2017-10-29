@@ -15,7 +15,8 @@
   ],
   "peerDependencies": {
     "babel-eslint": "^8.0.1",
-    "eslint": "^4.10.0"
+    "eslint": "^4.10.0",
+    "eslint-plugin-react": "^7.4.0"
   },
   "devDependencies": {
     "@cloudwalker/prettier-config": "^0.1.0",

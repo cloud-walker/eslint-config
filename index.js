@@ -14,6 +14,7 @@ module.exports = {
     'no-await-in-loop': 'warn',
     'no-compare-neg-zero': 'error',
     'no-cond-assign': 'warn',
+    'no-console': ['warn', {allow: ['info', 'warn', 'error', 'trace', 'dir']}],
     'no-constant-condition': 'warn',
   },
 }

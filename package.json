@@ -1,5 +1,5 @@
 {
-  "name": "@cloudwalker/eslint-config-default",
+  "name": "@cloudwalker/eslint-config",
   "version": "0.1.0",
   "description": "Default ESLint configuration",
   "publishConfig": {

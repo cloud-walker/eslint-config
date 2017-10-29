@@ -11,5 +11,6 @@ module.exports = {
     'default-case': ['warn', {commentPattern: '^no default$'}],
     'for-direction': 'error',
     'getter-return': 'warn',
+    'no-await-in-loop': 'warn',
   },
 }

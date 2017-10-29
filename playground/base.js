@@ -32,3 +32,12 @@ for (let i = 0; i < 10; i--) {}
 const p = {
   get name() {},
 }
+
+async function foo(things) {
+  const results = []
+  for (const thing of things) {
+    // Bad: each loop iteration is delayed until the entire asynchronous operation completes
+    results.push(await bar(thing))
+  }
+  return baz(results)
+}

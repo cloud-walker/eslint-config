@@ -7,11 +7,17 @@
   },
   "repository": "cloud-walker/eslint-config",
   "license": "MIT",
-  "bugs": {"url": "https://github.com/cloud-walker/eslint-config/issues"},
+  "bugs": {
+    "url": "https://github.com/cloud-walker/eslint-config/issues"
+  },
   "files": [
     "index.js"
   ],
   "peerDependencies": {
-    "eslint": "^4.9.0"
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.4"
   }
 }

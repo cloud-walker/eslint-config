@@ -1,7 +1,7 @@
 {
   "name": "@cloudwalker/eslint-config",
-  "version": "0.2.0",
-  "description": "Default ESLint configuration",
+  "version": "0.3.0",
+  "description": "My own eslint configuration",
   "publishConfig": {
     "access": "public"
   },
@@ -12,8 +12,7 @@
   },
   "files": [
     "index.js",
-    "source/baseConfig.js",
-    "source/reactConfig.js"
+    "react.js",
   ],
   "peerDependencies": {
     "babel-eslint": "^8.0.1",

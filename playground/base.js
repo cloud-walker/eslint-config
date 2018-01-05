@@ -43,7 +43,7 @@ async function foo(things) {
 }
 
 if (x = 0) {
-  
+
 }
 
 // no-compare-neg-zero

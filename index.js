@@ -17,5 +17,7 @@ module.exports = {
     'no-console': ['warn', {allow: ['info', 'warn', 'error', 'trace', 'dir']}],
     'no-constant-condition': 'warn',
     'no-control-regex': 'warn',
+    'no-dupe-keys': 'warn',
+    'no-unused-vars': 'warn',
   },
 }
